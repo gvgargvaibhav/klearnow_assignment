@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main_div {
+  margin-left :200px;
+  margin-top :75px;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2A3F54;
+ 
+  
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 4px 4px 4px 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fdfdfd;
+  display: block;
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.topnav {
+  height: 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 200px;
+  background-color: rgb(177, 183, 185);
+ 
+  
+  padding-top: 60px;
+}
+.formDiv {
+ margin: 85px 10px 10px 10px;
+  width: 50%;
+  border-radius: 5px;
+ 
+  background-color:#F2F2F2;    
+  text-align: center;
+}
+.ViewDiv {
+  margin: 85px 10px 10px 10px;
+   width: 100%;
+   border-radius: 5px;
+  
+   background-color:#F2F2F2;    
+   text-align: center;
+ }
+
+label{
+  text-align: center;
+  font-weight: solid;
+  font-size: 18px;
+}
+
+input[type=text] {
+  width:60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button
+  {
+  width: 40%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.btn-success{
+  background-color: #4CAF50;
+}
